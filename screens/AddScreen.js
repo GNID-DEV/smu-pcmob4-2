@@ -16,7 +16,7 @@ export default function AddScreen({ navigation }) {
       <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F2F2F2'}}>What do you want to do?</Text>
     
     {/* Input field */}
-      <TextInput style={styles.textInput} value={text} onChangeText={(input) => setText(input)} />
+      <TextInput style={[styles.textInput, { color: "#F2F2F2" }]} value={text} onChangeText={(input) => setText(input)} />
       
       <View style={styles.buttonContainer}>
     

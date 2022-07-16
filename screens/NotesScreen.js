@@ -9,8 +9,6 @@ import {
 import { Ionicons } from "@expo/vector-icons";
 import firebase from "../database/firebaseDB";
 
-
-
 const db = firebase.firestore().collection("todos");
 
 export default function NotesScreen({ navigation, route }) {
@@ -37,15 +35,7 @@ export default function NotesScreen({ navigation, route }) {
     navigation.setOptions({
       headerRight: () => (
         <TouchableOpacity onPress={addNote}>
-          <Ionicons
-            name="add-circle"
-            size={30}
-            // Got issue when park fontSize under styles 
-            style={{
-              color: "#F2F2F2",
-              marginRight: 10,
-            }}
-          />
+          <Ionicons name="add-circle" size={30} style={{color: "#F2F2F2", marginRight: 10,}}/>
         </TouchableOpacity>
       ),
     });
