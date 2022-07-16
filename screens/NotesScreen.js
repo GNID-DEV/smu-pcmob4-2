@@ -9,6 +9,8 @@ import {
 import { Ionicons } from "@expo/vector-icons";
 import firebase from "../database/firebaseDB";
 
+
+
 const db = firebase.firestore().collection("todos");
 
 export default function NotesScreen({ navigation, route }) {
