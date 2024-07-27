@@ -33,7 +33,7 @@ To set up and run this app, follow these steps:
    Clone this repository to your local machine using:
 
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/ssmu-pcmob4-2-todo.git
+   git clone https://github.com/YOUR_GITHUB_USERNAME/ssmu-pcmob4-2.git
    ```
 
 2. **Navigate to the Project Directory**:
